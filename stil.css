@@ -19,16 +19,6 @@ body {
 	margin: 4px 2px;
 }
 
-.podnaslov2 {
-	font-family: "century gothic";
-	color: white;
-	font-size: 35px;
-	text-align: center;
-	margin-top: 350px;
-	/*background: rgba(242, 236, 227,0.7);*/
-	
-}
-
 .beseda {
 	font-family: "century gothic";
 	color: black;
@@ -38,21 +28,20 @@ body {
 }
 
 .beseda2 {
-font-family: "century gothic";
+	font-family: "century gothic";
 	color: black;
 	font-size: 18px;
 	text-align: left;
-	margin top: 5px;
 	background-color: white;
-	height: 45px;
 	max-width: 700px;
 	width: 700px;
-	font-size: 18px;
+	height: 45px;
+	margin top: 5px;
+	margin-right: 90px;
+	margin-left: auto;
 	margin-bottom: 20px;
 	padding-top: 10px;
 	padding-left: 20px;
-	margin-left: auto;
-	margin-right: 90px;
 }
 
 
@@ -65,9 +54,8 @@ font-family: "century gothic";
     padding: 15px 30px;
     text-align: center;
 }
-
+/*------- NAVIGACIJSKA VRSTICA --------------------- */
 .vrstica ul li{
-	/*border-bottom: 1px #000 solid;*/
 	margin-bottom: 5px;
 	text-align: center;
 	float: center;
@@ -79,14 +67,6 @@ font-family: "century gothic";
 	display: inline-flex;
 }
 
-p a{
-	color: white;
-}
-
-.vrstica a:hover {
-	border-bottom: 2px #fff solid;
-}
-
 .vrstica a {
 	font-family: "century gothic";
 	text-decoration: none;
@@ -96,6 +76,15 @@ p a{
     font-size: 20px;
 }
 
+.vrstica a:hover {
+	border-bottom: 2px #fff solid;
+}
+
+p a{
+	color: white;
+}
+
+
 h1 a {
 	font-family: "century gothic";
 	text-decoration: none;
@@ -103,25 +92,8 @@ h1 a {
     text-align: center;
 }
 
-.objave h2{
-	list-style-type: none;
-	font-family: "century gothic";
-	color: black;
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 10px;
-}
 
-.objave ul{ 
-	list-style-type: none;
-    margin-top: 20px;
-    padding: 0;
-    overflow: hidden;
-    background-image: url("8.jpg");
-    opacity: 0.80;
-    filter: alpha(opacity=80);
-}
-
+/*---------- PRIJAVA IN REGISTRACIJA ---------------- */
 .prijavabox{
 	font-family: "century gothic";
 	width: 500px;
@@ -136,15 +108,11 @@ h1 a {
 	margin-top: 100px;
 }
 
-.check{
-	color :white;
-	float:center;
-	width: 10px;
-	height: 10px;
-	color: white;
-	margin: 1px 1px;
-	position: relative;
-	border-radius: 3px;
+.prijavabox img{
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
 }
 
 .registracijabox{
@@ -167,12 +135,6 @@ h1 a {
 	margin-top: -60px;
 	margin-bottom: 30px;
 }
-.prijavabox img{
-	width: 120px;
-	height: 120px;
-	margin-top: -60px;
-	margin-bottom: 30px;
-}
 
 input {
 	font-family: "century gothic";
@@ -181,7 +143,6 @@ input {
 	font-size: 18px;
 	margin-bottom: 20px;
 	padding-left: 30px;
-
 }
 
 .padding{
@@ -206,10 +167,10 @@ input {
 	text-align: left;
 	 filter: alpha(opacity=100);
 }
-
+/*------- OBJAVE --------------------- */
 .plosca1{
 	font-family: "century gothic";
-    background-image: url("9.jpg");
+    background-image: url("3.jpg");
     opacity: 0.80;
     filter: alpha(opacity=80);
     /*background: rgba(242, 236, 227, 0.6);*/
@@ -224,6 +185,47 @@ input {
     padding-right: 30px;
     padding-bottom: 90px;
     padding-left: 30px;
+}
+
+.plosca1 a{
+	font-family: "century gothic";
+	text-decoration: none;
+	color:black;
+    text-align: center;
+    font-size: 28px;
+}
+
+.objave ul{ 
+	list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+    overflow: hidden;
+    color:white;
+    /*background-image: url("3.jpg");
+    opacity: 0.80;
+    filter: alpha(opacity=80);*/
+}
+
+
+.objave h2{
+	list-style-type: none;
+	font-family: "century gothic";
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.objave img{
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin-top: -50px;
+	margin-bottom: 10px;
+	margin-right: 10px; 
+	margin-left: 10px;
+	float: right;
 }
 
 .plosca2{
@@ -243,31 +245,12 @@ input {
     padding-left: 30px;
 }
 
-.plosca1 a{
-	font-family: "century gothic";
-	text-decoration: none;
-	color:black;
-    text-align: center;
-    font-size: 28px;
-}
-
-.objave img{
-	display: block;
-	width: 60px;
-	height: 60px;
-	margin-top: -50px;
-	margin-bottom: 10px;
-	margin-right: 10px; 
-	margin-left: 10px;
-	float: right;
-}
-
-
 .plosca3{
 	font-family: "century gothic";
-    background-image: url("8.jpg");
+	background: rgba(52, 73, 94,0.7);
+    /*background-image: url("8.jpg");
     opacity: 0.80;
-    filter: alpha(opacity=80);
+    filter: alpha(opacity=80);*/
     /*background: rgba(242, 236, 227, 0.6);*/
 	font-size: 18px;
 	text-align: center;
