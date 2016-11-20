@@ -1,46 +1,108 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
-		<script src="skripta.js"></script>
-		<link rel="stylesheet" href="stil.css">
-		<title>AVeM</title>
+			<meta charset="UTF-8">
+			<meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
+			<script src="skripta.js"></script>
+			<link rel="stylesheet" href="stil.css">
+			<title>AVeM</title>
 	</head>
+
 	<body>
 		<h1><a href="index.html"><img src="logo.png"></a></h1>
-		<nav>
-			<div class = "objave">
-				<ul>
-					<li><h2>TEŽAVE Z UČENJEM</h2></li>
-					<li><a href="index.html"><img src="izpis.png"></a></li>
-					<li><a href="profil.html"><img src="profil.png"></a></li>
-					<li><a style="float: left;" href="index.html"><img src="nazaj.png"></a></li>
-				</ul>
-			</div>
-		</nav>
 
-		<div class="plosca3">
-			<div>
-				<a href="profil.html"><img src="profil.png"></a>
-				<input type="text" name="new" title="Napiši novo objavo" placeholder="Napiši novo objavo" required />	
-			</div>
+		<div class="ogrodje" style="max-width:1400px;">
+		  
+		    <!-- levo-->
+		    <div class="oLevo">
+		    	<div class="predlagano">
+			        <div class="slika">
+			        	<img src="clanek1.png" style="width:100%">
+			        </div>
 
-			<div class="plosca4">
-				<div>
-					<a href="profil.html"><img src="profil.png"></a>
-					<p class="beseda2">5 najboljših asociacij.</p>		
-				</div>
-				<div>
-					<a href="ideje.html"><img src="uredi.png"></a>	
-					<p class="beseda2">Super!</p>
-				</div>
-				<div>			
-					<a href="komentiraj.html"><img src="komentiraj.png"></a>
-				</div>	
-			</div>
+			      	<div class="clanki">
+			          	<a href="https://www.theguardian.com/lifeandstyle/2011/jan/01/technology-ban-kids-home-experiment">I took my kids offline</a></p>
+			        </div>
+			   
+			        <div class="clanki">
+			   			<a href="http://www.wsj.com/articles/SB10001424052748704111504576059713528698754">Why Chinese Mothers Are Superior</a></p>
+			        </div>
+
+			        <div class="clanki">
+				        <a href="http://digg.com/2016/placebo-effect-mosaic">Can We Condition Our Bodies To Treat Themselves?</a></p>
+			        </div>
+		    	</div>
+
+		    	<div class="predlagano">
+			        <div class="slika">
+			        	<img src="slusalke2.png" style="width:100%">
+			        </div>
+
+			      	<div class="zanimanja">
+			          	<h3></b>FILMI</b></h3>
+			          	<ul>
+			          		<li class="beseda">Star wars</li>
+			         		<li class="beseda">Lord of the rings</li>
+			         	</ul>
+			        </div>
+			   
+			        <div class="zanimanja">
+			          	<h3></b>GLASBA</b></h3>
+			          	<ul>
+			          		<li class="beseda">Queens</li>
+			         		<li class="beseda">Beatles</li>
+			         		<li class="beseda">The Rolling Stones</li>
+			         	</ul>
+
+			        </div>
+
+			        <div class="zanimanja">
+			          	<h3></b>KNJIGE</b></h3>
+			        	<ul>
+			        		<li class="beseda">Harry Potter</li>
+			         		<li class="beseda">Moby-Dick</li>
+			         	</ul>
+			        </div>
+		    	</div>
+		    </div>
+
+		    <!-- desno -->
+		    <div class="oDesno">
+		        <div class="objavljeno">
+		        	<a href="profil.html"><img src="profilna.jpg"></a>
+		        	<input type="text" name="objava" title="Napišite naslov objave" placeholder="Naslov objave"  required />
+
+		        	<input style ="margin-left: 90px;" type="text" name="objava" title="Napišite novo objavo" placeholder="Nova objava"  required />
+		        	<input type="submit" name="submit" value="OBJAVI" class="gumb">
+		        </div>
+		        <div class="objavljeno">
+		        	<a href="profil.html"><img src="profilna.jpg"></a>
+		        	<h5><b>Modalni glagli</b></h5>
+		        	<h4>20.11.2016</h4>
+		        	<p class="beseda">Tukaj bo bolj podrobno opisano vprašanje ali trditev, ki ga oseba postavlja.</p>
+		        	<h6><img src="koment.jpg"></h6>
+		        </div>
+		        <div class="objavljeno">
+		        	<a href="profil.html"><img src="profilna.jpg"></a>
+					<h5><b>IF stavki</b></h5>
+					<h4>16.11.2016</h4>
+					<p class="beseda">Tukaj bo bolj podrobno opisano vprašanje ali trditev, ki ga oseba postavlja.</p>
+					<h6><img src="koment.jpg"></h6>
+		        </div>
+		        <div class="objavljeno">
+		        	<a href="profil.html"><img src="profilna.jpg"></a>
+					<h5><b>Kako naj si zapomnim besedo prosecute?</b></h5>
+					<h4>2.10.2016</h4>
+					<p class="beseda">Tukaj bo bolj podrobno opisano vprašanje ali trditev, ki ga oseba postavlja..</p>
+					<h6><img src="koment.jpg"></h6>
+		        </div>
+		    </div>
+
 		</div>
-		</div>
 
-	</body>		
+		<footer class="footer">
+		  <a href="avtorske.html">Avtorske pravice</a></p>
+		</footer>
+	</body>
 </html>
