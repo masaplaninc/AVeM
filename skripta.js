@@ -18,6 +18,7 @@ function zavihek(a,b,c,d) {
 window.addEventListener("DOMContentLoaded", function() {
   // Grab elements, create settings, etc.
         var canvas = document.getElementById('canvas');
+         if (!canvas) return; 
         var context = canvas.getContext('2d');
         var video = document.getElementById('video');
         var mediaConfig =  { video: true };
