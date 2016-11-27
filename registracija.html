@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
+		<script src="skripta.js"></script>
+		<link rel="stylesheet" href="stil.css">
+		<title>AVeM</title>
+	</head>
+	<body>
+		<h1><a href="index.html"><img src="logo.png"></a></h1>
+		<nav>
+			<div class = "orodnaVrstica">
+				<ul>
+					<li><a href="index.html">Objave</a></li>
+					<li><a href="ponudba.html">Ponudba in cene</a></li>
+					<li><a href="onas.html">O nas</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+					<li><a href="prijava.html">Prijava</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!--p class="beseda">Nov način učenja angleščine</p-->
+		<div class="registracijabox">
+			<img src="profil.png">
+            <form class="prijava" method="POST" action="/send_prijava">
+	            <input type="text" name="name" pattern=".*" title="Vnesite ime" placeholder="Ime" required />
+	            <input type="text" name="surname" pattern=".*" title="Vnesite Priimek" placeholder="Priimek" required />
+	             <input type="email" name="email" pattern=".*" title="Vnesite email" placeholder="E-mail" required />
+              	<input type="text" name="username" pattern=".*" title="Vnesite uporabinško ime" placeholder="Uporabniško ime" required />
+             	<input type="text" name="password" pattern=".*" title="Vnesite geslo" placeholder="Geslo"  required />
+             	<input type="text" name="password" pattern=".*" title="Potrdite geslo" placeholder="Potrdite geslo"  required />
+             	<input type="text" name="firma" pattern=".*" title="Firma" placeholder="Firma*"/>
+             	<!--label class="check"><input type="checkbox" required />Sprejemam pogoje</label-->
+             	<input type="submit" name="submit" value="REGISTRIRAJ SE" class="ok">
+              <!--label class="prijava"><input type="checkbox" />Zapomni si me</label-->
+              <!--button class="button" onclick="rotacija(1)">Potrdi</button-->
+            </form>
+        </div>
+	</body>
+</html>
