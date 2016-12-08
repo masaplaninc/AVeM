@@ -7,13 +7,14 @@ h1 img {
 
 body {
 	background-image: url("slike/1.jpg");
+	font-family: "century gothic";
 	background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    align-content: center;
 }
 
 .pod{
-	font-family: "century gothic";
 	color: white;
 	font-size: 20px;
 	text-align: center;
@@ -21,7 +22,6 @@ body {
 }
 
 .beseda {
-	font-family: "century gothic";
 	color: black;
 	font-size: 14px;
 	text-align: left;
@@ -62,7 +62,6 @@ body {
 
 /*besed v vrstici*/
 .orodnaVrstica a {
-	font-family: "century gothic";
 	text-decoration: none;
     color: white;
     padding: 20px;
@@ -81,7 +80,6 @@ body {
 
 .oknoPrijava{
 	background: rgba(52, 73, 94,0.7);
-	font-family: "century gothic";
 	text-align: center;
 	max-width: 420px;
 	margin-left: auto;
@@ -94,6 +92,7 @@ body {
 }
 
 #prijavabox {
+	font-family: "century gothic";
 	padding-left: 15px;
 	padding-right: 15px;
 	max-width: 420px;
@@ -102,6 +101,7 @@ body {
 }
 
 #registracijabox {	
+	font-family: "century gothic";
 	display: none;
 	max-width: 420px;
 	margin-left: auto;
@@ -114,6 +114,7 @@ body {
 	display: flex;
 }
 .zavihki input{
+	font-family: "century gothic";
 	padding: 10px;
 	margin: auto;
 	border:none;
@@ -149,7 +150,6 @@ body {
 
 
 .ok {
-	font-family: "century gothic";
     background-color: #2ECC71; 
     border-radius: 4px;
     width: 270px;
@@ -198,11 +198,17 @@ p a {
 	margin-bottom: 10px;
 }
 
+.prijava label {
+	color: white;
+	font-size: 13px;
+	float: left;
+
+}
+
 
 /*---------------NAPISI----------------*/
 /*ozadje za napise*/
 .ozadjeNapisov {
-	font-family: "century gothic";
     background: rgba(242, 236, 227,0.7);
 	font-size: 13px;
     max-width:960px;
@@ -215,13 +221,11 @@ p a {
 }
 /*ozadje za naslove napisov*/
 .ozadjeNapisov h2, .kontakt h2{
-	font-family: "century gothic";
 	font-size: 18px;
 	text-align: left;
 }
 
 .kontakt {
-	font-family: "century gothic";
     background: rgba(242, 236, 227,0.7);
 	font-size: 17px;
 	text-align: center;
@@ -233,7 +237,6 @@ p a {
     margin-left: auto;
 }
 .ozadjeNapisov p {
-	font-family: "century gothic";
 	color: black;
 	font-size: 14px;
 	text-align: left;
@@ -260,7 +263,6 @@ p a {
 }
 
 .kontakt .gumb {
-	font-family: "century gothic";
     background-color: #2ECC71;
     margin-right: 20px;
     margin-bottom: 15px;
@@ -276,30 +278,35 @@ p a {
 
 /*-------------BLJIŽNICA OBJAVE ------------- */
 
+.obj{
+	display: -webkit-flex;
+    align-content: space-between;
+    padding: 0;
+  	margin: 0;
+  	-webkit-flex-wrap: wrap;
+  	flex-wrap: wrap;
+}
+
 /*skatla za bljiznico do objav*/
 .objavebox {
-	font-family: "century gothic";
-   /* background-image: url("18.jpg");*/
     background: rgba(242, 236, 227, 0.6);
     border-width: 5px;
     border-color: silver;
     border-style: solid;
 	font-size: 18px;
 	text-align: center;
-	float:left;
 	margin-top: 50px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 20px;
 	padding-top: 20px;
     padding-right: 35px;
     padding-left: 35px;
     padding-bottom: 30px;
-    display: block;
+   
 }
 /*linki do objav*/
 .objavebox a{
-	font-family: "century gothic";
 	text-decoration: none;
 	color:black;
     text-align: center;
@@ -307,7 +314,6 @@ p a {
 }
 /*notranji napisi objav*/
 .objavebox2 {
-	font-family: "century gothic";
     background: rgba(242, 236, 227, 0.9);
 	font-size: 18px;
 	text-align: center;
@@ -331,9 +337,7 @@ p a {
 /*-------PROFIL------------*/
 
 .ogrodje {
-	font-family: "century gothic";
 	font-size: 16px;
-	max-width: 960px;
 	margin-top: 16px;
 }
 
@@ -342,7 +346,6 @@ p a {
 .pLevo {
 	float:left;
 	text-align: left;
-	font-family: "century gothic";
 	font-size: 13px;
 	max-width: 350px;
 	margin-left: 20px;
@@ -400,7 +403,6 @@ p a {
 /*desni del profila - Moje objave*/
 .pDesno{
 	float: left;
-	font-family: "century gothic";
 	font-size: 13px;
 	width: 65%;
 	padding: 30px;
@@ -455,7 +457,6 @@ p a {
 /*levi del objav - clanki in predlagano*/
 .oLevo{
 	float:left;
-	font-family: "century gothic";
 	font-size: 13px;
 }
 
@@ -499,7 +500,6 @@ p a {
 /*desni del objav - Objavleno*/
 .oDesno{
 	float: left;
-	font-family: "century gothic";
 	font-size: 13px;
 	width: 65%;
 	margin: 20px 20px 40px 20px;
@@ -510,7 +510,6 @@ p a {
 	font-size: 16px;
 	background-color: white;
 	height: 30%;
-	width: 80%;
 	padding: 10px 30px 50px 30px;
 	margin: 20px 40px 20px 20px;
 	border-radius: 25px;
@@ -541,7 +540,6 @@ p a {
 }
 
 .objava .gumb {
-	font-family: "century gothic";
     background-color: #2ECC71;
     margin-right: 20px;
     margin-bottom: 15px;
@@ -556,7 +554,6 @@ p a {
 }
 .objavljeno{
 	background-color: white;
-	width: 80%;
 	height: 30%;
 	padding: 10px 30px 50px 30px;
 	margin: 20px 40px 20px 20px;
@@ -606,7 +603,6 @@ p a {
 }
 
 .komentar {
-	font-family: "century gothic";
 	color: black;
 	font-size: 13px;
 	text-align: left;
@@ -617,23 +613,6 @@ p a {
 }
 
 
-/*--------NOGA----------*/
-
-.footer{
-	text-align: center;
-	clear:both;
-	background-color: #009688;
-	height: 20px;
-	width:auto;
-	padding: 20px;
-}
-
-.footer a {
-	font-family: "century gothic";
-	font-size: 13px;
-	color:white;
-	text-decoration: none;
-}
 
 /*-------POVEZAVA JS-------*/
 
@@ -656,7 +635,6 @@ p a {
 }
 
 #snap {
-	font-family: "century gothic";
     background-color: #2ECC71;
     margin: 20px;
     border-radius: 4px;
@@ -679,7 +657,6 @@ p a {
 
 .odpri {
     position: fixed;
-    font-family: "century gothic";
     background: rgba(0, 0, 0, 0.8);
     top: 0;
     right: 0;
@@ -718,4 +695,20 @@ p a {
 }
 .zapri:hover {
     background: #00d9ff;
+}
+/*--------NOGA----------*/
+
+.footer{
+	text-align: center;
+	clear:both;
+	background-color: #009688;
+	height: 20px;
+	width:auto;
+	padding: 20px;
+}
+
+.footer a {
+	font-size: 13px;
+	color:white;
+	text-decoration: none;
 }
