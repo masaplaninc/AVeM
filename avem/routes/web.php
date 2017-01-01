@@ -11,26 +11,23 @@
 |
 */
 
-Route::get('/', [
-	'as' => 'home',
-	'uses' => 'PagesController@home'
-]);
-
-Route::get('/test', function(){
-	return 'hello';
+Route::get('/', function () {
+    return view('welcome');
 });
 
-Route::group(['prefix'=>'auth'], function(){
-
-	Route::get('login', [
-		'as' => 'get_login',
-		'uses' => 'Auth\LoginController@getlogin'
-		]
-	);
-
-	Route::post('login', [
-		'as' => 'post_login',
-		'uses' => 'Auth\LoginController@postlogin'
-	]);
+Route::get('/ponudba', function () {
+    return view('ponudba');
 });
 
+Route::get('/onas', function () {
+    return view('onas');
+});
+
+
+Route::get('/kontakt', function () {
+    return view('kontakt');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
