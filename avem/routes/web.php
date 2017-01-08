@@ -31,3 +31,21 @@ Route::get('/kontakt', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+
+Route::get('profil', 'ProfileController@profil');
+
+Route::get('uredisliko', 'ProfileController@urediprofil');
+Route::post('uredisliko', 'ProfileController@update_avatar');
+
+Route::group(['middleware' => 'web'], function () {
+Route::get('/urediprofil', 'EditprofileController@editprofile');
+Route::post('/urediprofil', 'EditprofileController@saveeditprofile');
+
+});
+
+
+//Route::get('/profile/{username}', 'ProfileController@profile');
+//Route::post('profile/{username}', 'ProfileController@update_avatar');
+
+

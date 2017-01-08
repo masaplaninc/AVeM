@@ -22,7 +22,7 @@
         </nav>
         <div class="oknoPrijava">
             <div id="prijavabox">
-                <img src="ikone/profil.png" alt="profil">
+                <img src="ikone/profil.jpg" alt="profil">
                 <form class="prijava" role="form" method="POST" action="{{ url('/login') }}">
                     {{ csrf_field() }}
 

@@ -18,8 +18,12 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('surname');
             $table->string('email')->unique();
-            $table->string('username')->unique();;
+            $table->string('username')->unique();
             $table->string('password');
+            $table->string('films')->default('Harry Potter');
+            $table->string('music')->default('Queens');
+            $table->string('literature')->default('Lord of the rings');
+            $table->string('avatar')->default('default.jpg');
             $table->rememberToken();
             $table->timestamps();
         });
