@@ -1,0 +1,867 @@
+h1 img {
+	display: block;
+    margin: auto;
+    width: 150px;
+    height: 100px;
+}
+
+body {
+	background-image: url("../slike/1.jpg");
+	font-family: "century gothic";
+	background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+}
+
+.pod{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin-right: 55px
+}
+
+.beseda {
+	color: black;
+	font-size: 14px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 8px; 
+}
+
+.odjava img {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-right: 10px; 
+	margin-left: 10px;
+	float: right;
+	opacity: 0.5;
+}
+
+
+/*------- NAVIGACIJSKA orodnaVRSTICA --------------------- */
+
+/*vrstica*/
+.orodnaVrstica ul li{
+	margin-bottom: 5px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 75px;
+	padding-left: 75px;
+	display: inline-flex;
+}
+
+.orodnaVrstica ul{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+/*besed v vrstici*/
+.orodnaVrstica a {
+	text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+/*lebdenje pod crkami*/
+.orodnaVrstica a:hover {
+	border-bottom: 2px #fff solid;
+}
+
+
+/*---------- PRIJAVA IN REGISTRACIJA ---------------- */
+
+.oknoPrijava{
+	background: rgba(52, 73, 94,0.7);
+	text-align: center;
+	max-width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20px;
+	line-height: 30px;
+	margin-bottom: 200px;
+	margin-top: 100px;
+}
+
+#prijavabox {
+	font-family: "century gothic";
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#registracijabox {	
+	font-family: "century gothic";
+	display: none;
+	max-width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.zavihki{
+	display: flex;
+}
+.zavihki input{
+	font-family: "century gothic";
+	padding: 10px;
+	margin: auto;
+	border:none;
+	padding: 10px;
+	font-size: 17px;
+}
+
+.zavihki #gumbP {
+	background-color: #34495E;
+	border-right: 1px solid #cccccc;
+	border-bottom: none;
+	color: white;
+	cursor: pointer;
+}
+
+.zavihki #gumbR {
+	background-color: #dbdbdb;
+	cursor: pointer;
+	color: grey;
+}
+
+.zavihki input{
+	font-family: "century gothic";
+	height: 35px;
+	width: 270px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-bottom: 20px;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+
+.ok {
+	font-family: "century gothic";
+    background-color: #2ECC71; 
+    border-radius: 4px;
+    width: 270px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+
+}
+
+.prijava input {
+	font-family: "century gothic";
+	height: 35px;
+	width: 270px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-bottom: 20px;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+input:active, input:focus{
+	border: 1px solid #21ccf2;
+	box-shadow: 0px 1px 4px 0px #21ccf2 ;
+}
+
+p a {
+	text-decoration: none;
+	color: white;
+}
+
+#prijavabox img{
+	width: 100px;
+	height: 100px;
+	margin-top: -50px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+}
+
+
+#registracijabox img{
+	width: 100px;
+	height: 100px;
+	margin-top: -50px;
+	margin-bottom: 10px;
+}
+
+.prijava label {
+	color: white;
+	font-size: 13px;
+	float: left;
+
+}
+
+
+/*---------------NAPISI----------------*/
+/*ozadje za napise*/
+.ozadjeNapisov {
+    background: rgba(242, 236, 227,0.7);
+	font-size: 13px;
+    max-width:960px;
+    padding: 30px;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*ozadje za naslove napisov*/
+.ozadjeNapisov h2, .kontakt h2{
+	font-size: 18px;
+	text-align: left;
+}
+
+.kontakt {
+    background: rgba(242, 236, 227,0.7);
+	font-size: 17px;
+	text-align: center;
+    max-width:960px;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ozadjeNapisov p {
+	color: black;
+	font-size: 14px;
+	text-align: left;
+	margin-bottom: 30px;
+	display: block;
+}
+.ozadjeNapisov p img {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-top: -5px;
+	margin-right: 16px;
+	display: inline-block;
+}
+
+.kontakt input{
+	font-family: "century gothic";
+	float: left;
+	clear: both;
+	height: 35px;
+	width: 70%;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+.kontakt .gumb {
+    background-color: #2ECC71;
+    margin-right: 20px;
+    margin-bottom: 15px;
+	float: left;
+    border-radius: 4px;
+    width: 30%;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+/*-------------BLJIŽNICA OBJAVE ------------- */
+
+.obj{
+	display: -webkit-flex;
+    align-content: space-between;
+    padding: 0;
+  	margin: 0;
+  	-webkit-flex-wrap: wrap;
+  	flex-wrap: wrap;
+}
+
+/*skatla za bljiznico do objav*/
+.objavebox {
+    background: rgba(242, 236, 227, 0.6);
+    border-width: 5px;
+    border-color: silver;
+    border-style: solid;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding-top: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+   
+}
+/*linki do objav*/
+.objavebox a{
+	text-decoration: none;
+	color:black;
+    text-align: center;
+    font-size: 24px;
+}
+/*notranji napisi objav*/
+.objavebox2 {
+    background: rgba(242, 236, 227, 0.9);
+	font-size: 18px;
+	text-align: center;
+	float:left;
+	max-width: 300px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	clear: both;
+}
+
+.objavebox3 img {
+	max-width: 340px;
+	height: 200px;
+	padding: 0px;
+}
+
+
+/*-------PROFIL------------*/
+
+.ogrodje {
+	font-size: 16px;
+	margin-top: 16px;
+
+}
+
+
+/*levi del profila - O meni*/
+.pLevo {
+	float:left;
+	text-align: left;
+	font-size: 13px;
+	max-width: 260px;
+	margin-left: 50px;
+	margin-right:50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background: rgba(242, 236, 227, 0.6);
+    border-width: 5px;
+    border-color: silver;
+    border-style: solid;
+	/*background-color:rgba(52, 73, 94,0.7);*/
+	/*border-radius: 25px;*/
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.pLevo img{
+	border-radius: 50%;
+	width: 210px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+.pLevo h2{
+	margin-left: 10px;
+	border-bottom: 1px #565454 solid;
+}
+
+.slika a img{
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px; 
+	margin-left: 20px;
+	float: right;
+	opacity: 0.5;
+}
+
+
+.omeni p{
+	margin-left: 25px;
+	font-size: 14px;
+
+}
+
+.zanimanja {
+	border-top: 1px #565454 solid;
+}
+
+.zanimanja li a{
+	font-size: 14px;
+	text-decoration: none;
+	color:black;
+}
+
+.zanimanja h3{
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+/*desni del profila - Moje objave*/
+.pDesno{
+	float: left;
+	font-size: 13px;
+	width: 60%;
+	padding: 30px;
+	margin: 20px 20px 40px 20px;
+	background: rgba(242, 236, 227, 0.6);
+    border-width: 5px;
+    border-color: silver;
+    border-style: solid;
+    text-align: left;
+	/*border-radius: 25px;*/
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16);
+}
+
+.mojeObjave h2{
+	margin-top: 10px;
+}
+
+.napisal h4{
+	text-align: left;
+	font-size: 11px;
+	margin-top: 2px;
+	color: #009688;
+	padding-bottom: 5px;
+}
+
+.napisal h5{
+	text-align: left;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	border-top: 1px #565454 solid;
+	font-size: 15px;
+}
+
+
+.napisal a{
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.napisal h6 img{
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	margin-right: 10px; 
+	margin-left: 10px;
+	float: right;
+	opacity: 0.5;
+}
+
+/*------OBJAVE--------*/
+
+/*levi del objav - clanki in predlagano*/
+.oLevo{
+	float:left;
+	font-size: 13px;
+}
+
+.oLevo h2{
+	text-align: center;
+	border-bottom: 1px #a09d9d solid;
+	font-size: 18px;
+}
+
+.predlagano{
+	text-align: left;
+	max-width: 320px;
+	margin-left: 20px;
+	margin-right:auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background: rgba(242, 236, 227, 0.6);
+	background: rgba(242, 236, 227, 0.6);
+    border-width: 5px;
+    border-color: silver;
+    border-style: solid;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16);
+}
+
+.predlagano img{
+	/*border-radius: 25px;*/
+}
+
+
+
+.clanki{
+	text-align: left;
+	border-top: 1px #a09d9d solid;
+	padding: 20px 20px 10px 10px;
+}
+
+.clanki a{
+	color: black;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+/*desni del objav - Objavleno*/
+.oDesno{
+	float: left;
+	font-size: 13px;
+	width: 70%;
+	margin: 20px 20px 40px 20px;
+	text-align: left;
+}
+
+.oDesno a{
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+
+}
+
+
+
+.oDesno .zam{
+  width: 50px;
+}
+
+
+.objava{
+	text-align: left;
+	font-size: 16px;
+	background-color: white;
+	height: 30%;
+	padding: 10px 30px 50px 30px;
+	margin: 20px 40px 20px 20px;
+	border-radius: 25px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16);
+
+}
+
+.objava img {
+	display: block;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	margin-top: 3px;
+	margin-right: 10px; 
+	margin-left: 10px;
+	margin-bottom: 3px;
+	float: left;
+}
+
+.objava input{
+	font-family: "century gothic";
+	margin: 15px 15px 0px 15px;
+	width: 90%;
+	height: 35px;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+textarea{
+	font-family: "century gothic";
+	font-size: 13px;
+}
+
+.objava .gumb {
+    background-color: #2ECC71;
+    margin-right: 20px;
+    margin-bottom: 15px;
+	float: right;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+}
+.objavljeno{
+	height: 30%;
+	padding: 10px 30px 20px 30px;
+	margin: 40px 40px 20px 20px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16);
+	background: rgba(242, 236, 227, 0.6);
+    border-width: 5px;
+    border-color: silver;
+    border-style: solid;
+}
+
+.objavljeno h4 {
+	text-align: left;
+	font-size: 11px;
+	margin-top: 2px;
+	margin-left: 3px;
+	color: #009688;
+	border-bottom: 1px #a09d9d solid;
+	padding-bottom: 5px;
+
+}
+
+.objavljeno h5{
+	text-align: left;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	font-size: 15px;
+}
+
+.objavljeno h6 img{
+	display: block;
+	border-radius: 0px; 
+	width: 38px;
+	height: 38px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	margin-right: 10px; 
+	margin-left: 10px;
+	float: right;
+	opacity: 0.5;
+}
+
+
+.komentar {
+	color: black;
+	font-size: 13px;
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 20px;
+	padding: 5px;
+	border-top: 1px #a09d9d solid;
+}
+
+
+
+/*-------POVEZAVA JS-------*/
+
+#video {
+    border: 1px solid #ccc;
+    display: block;
+    border-radius: 25px;
+    height: 200px;
+    width: 90%;
+    margin:10px;
+}
+
+#canvas {
+    border: 1px solid #ccc;
+    display: block;
+    border-radius: 25px;
+    height: 200px;
+   	width: 90%;
+    margin:10px;
+}
+
+#snap {
+    background-color: #2ECC71;
+    margin: 20px;
+    border-radius: 4px;
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+#map {
+	max-width:800px;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*------ ODPRI OKNO------ */
+
+.odpri {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity:0;
+    pointer-events: none;
+}
+.odpri:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.odpri > div {
+    max-width: 600px;
+    position: relative;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 20px 13px 20px;
+
+    background: #fff;
+}
+.zapri {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    text-align: center;
+    right: -12px;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px #000;
+}
+.zapri:hover {
+    background: #009688;
+}
+/*--------NOVA OBJAVA----------*/
+
+.nova{
+	font-family: "century gothic";
+	color: white;
+	margin: auto; 
+	width: 60%;
+	text-align: left;
+	margin-top: 50px; 
+	border-radius: 20%;
+}
+
+.nova label{
+	margin-bottom: 10px;
+	border-radius: 20%;
+}
+
+.nova input{
+	font-family: "century gothic";
+	height: 35px;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.nova input:active, input:focus{
+	border: 1px solid #21ccf2;
+	box-shadow: 0px 1px 4px 0px #21ccf2 ;
+}
+
+
+
+/*--------NOGA----------*/
+
+.footer{
+	text-align: center;
+	clear:both;
+	background-color: #009688;
+	height: 20px;
+	width:auto;
+	padding: 20px;
+}
+
+.footer a {
+	font-size: 13px;
+	color:white;
+	text-decoration: none;
+}
+
+.navigacija ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(52, 73, 94,0.7);
+}
+
+.navigacija li{
+	float: left;
+
+}
+
+.navigacija li a{
+	font-size: 14px;
+	display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.navigacija li:last-child {
+    border-right: none;
+    float: right;
+}
+
+.navigacija h5 {
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    font-size: 14px;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+}
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 75px;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    height: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

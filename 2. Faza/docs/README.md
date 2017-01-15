@@ -16,9 +16,7 @@ Stran vsebuje:
 * Na vsakemu od treh forumov lahko uporabnik napiše novo objavo ali pa komentira neko že obstoječo objavo.  
 
 Možnosti, ki so omogočene in so mi všeč so: 
-* Možnost zajema slike preko kamere.
-* Zavihki pri prijavi in registraciji.
-* Pojavitevena okna pri objavah.
+* Način pisanja objav
 
 Problemi in izboljšave: 
 * Potrebna bi bila nadgradnja v primeru, da uporabnik nima javascripta.
